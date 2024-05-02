@@ -1,7 +1,11 @@
 # CCNA
 CCNA Training Course
 
+if you received a packet with destination ip with  netmask send it to the next hope
 
+```
+ip route 192.168.16.0 255.255.240.0 172.16.42.2
+```
 ```
 r0#configure terminal 
 Enter configuration commands, one per line.  End with CNTL/Z.

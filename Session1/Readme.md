@@ -1,5 +1,7 @@
 # Static Routing
 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/Session1/1.png" alt="CCNA ||" width="600"/></a>
+
 
 ## Route types:
 

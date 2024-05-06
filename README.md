@@ -2,5 +2,5 @@
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/doc/CCNA.png" alt="CCNA ||" width="200"/></a>
 
-1. [Static Routing](/1-Object-Oriented%20Design/intro.md)
-2. [RIP](/1-Object-Oriented%20Design/intro.md)
+1. [Static Routing](https://github.com/amin-amani/CCNA/tree/main/Session1#readme)
+2. [RIP](https://github.com/amin-amani/CCNA/tree/main/Session2#readme)

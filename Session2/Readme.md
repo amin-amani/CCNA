@@ -1,1 +1,5 @@
 RIP protocol
+
+```
+router rip
+```

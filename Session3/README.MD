@@ -13,3 +13,10 @@ converg time :
 
 open standard:?
 
+router eigrp <as number>
+
+ex:
+
+```
+rouer eigrp 100
+```

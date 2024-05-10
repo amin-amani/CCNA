@@ -19,4 +19,9 @@ ex:
 
 ```
 rouer eigrp 100
+network 192.168.1.10 0.0.0.255
+
 ```
+announce network 
+
+network 192.168.1.10 wildcard

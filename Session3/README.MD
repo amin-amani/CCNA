@@ -3,6 +3,8 @@
 
 now EIGRP is open standard
 
+AS: under one administrtation
+
 converg time :
 
 open standard:?

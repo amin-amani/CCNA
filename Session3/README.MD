@@ -3,6 +3,10 @@
 
 now EIGRP is open standard
 
+administartive distance:
+
+lower is more important
+
 AS: under one administrtation
 
 converg time :

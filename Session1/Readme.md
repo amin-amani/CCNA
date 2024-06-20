@@ -42,7 +42,10 @@ Vlan1                  unassigned      YES unset  administratively down down
 clock rate 64000
 ```
 
-
+shortcut for going out from freezing  CISCO packet tracer CLI 
+```
+ctrl+shift+f6
+```
 
 ## Set administrative distance for static route
 

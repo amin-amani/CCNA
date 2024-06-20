@@ -1,5 +1,15 @@
 # RIP protocol
 
+open standard
+
+max hop count 15
+
+class-full
+
+converge time slow
+
+redistributable: means it can translate from one protocol to another and vice versa
+
 ## versions:
 
 1.V1: broadcast  255.255.255.0
@@ -8,6 +18,12 @@
 
 3.NG:
 
+change version example:
+
+```
+router rip
+version 2
+```
 ## Enable RIP in router
 ```
 router rip
@@ -32,3 +48,8 @@ timer basic update invalid hold flash
 timer basic 35 193 200 210
 no timer basic
 ```
+
+## see protocol on router
+
+show ip protocol
+

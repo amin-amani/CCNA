@@ -41,3 +41,14 @@ Vlan1                  unassigned      YES unset  administratively down down
 ```
 clock rate 64000
 ```
+
+
+
+## Set administrative distance for static route
+
+Administrative distance is the first criterion that a router uses to determine which routing protocol to use if two protocols provide route information for the same destination
+```
+ip route 192.168.16.0 255.255.240.0 172.16.42.2 1
+```
+
+

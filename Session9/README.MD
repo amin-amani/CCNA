@@ -1,6 +1,6 @@
 # Switch configurations
 
-##VLAN
+## VLAN
 
 ## vtp
 

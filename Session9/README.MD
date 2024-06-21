@@ -1,4 +1,10 @@
-Switch configurations
+## Switch configurations
+
+
+```
+interface range fastEthernet 0/1-20
+```
+
 ```
 show process
 ```

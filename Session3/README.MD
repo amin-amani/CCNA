@@ -17,6 +17,8 @@ router eigrp <as number>
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/Session3/eigrp-protocols.PNG" alt="CCNA ||" width="500"/></a>
 
+
+insise each AS we use IGP(interior gateway protocols) protocols and between each AS we use EGP(exterior gateway protocols)
 ex:
 
 ```

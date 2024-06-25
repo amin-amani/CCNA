@@ -64,3 +64,17 @@ show ip protocols
 
 ```
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/Session3/eigrp%20metric.PNG" alt="CCNA ||" width="500"/></a>
+
+k1=1 we use Bandwidth 
+
+k2=0 we do not use load
+
+k3=1 we use Delay 
+
+k4=0 we use reliability 1
+
+k5=0 we use reliability 2
+
+
+
+

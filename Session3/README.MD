@@ -75,6 +75,17 @@ k4=0 we use reliability 1
 
 k5=0 we use reliability 2
 
+eigrp messages:
+
+hello message: who knows eigrp
+
+update message: response to hello contains table 
+
+quarry: request for specific route
+
+reply message: in response to quarry
+
+message ack: update message ack
 
 
 

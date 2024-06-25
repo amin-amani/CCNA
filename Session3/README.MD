@@ -29,7 +29,6 @@ router eigrp <as number>
 Autonomous Systems:
 
 protocols where works under one administration
-majmoee ei asz protocol HA ke taht ye administration kar mikone
 
 inside each AS we use IGP(interior gateway protocols) protocols and between each AS we use EGP(exterior gateway protocols)
 
@@ -64,3 +63,4 @@ eigrp neighbors
 show ip protocols
 
 ```
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/Session3/eigrp%20metric.PNG" alt="CCNA ||" width="500"/></a>

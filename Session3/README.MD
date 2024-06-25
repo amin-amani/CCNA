@@ -7,6 +7,12 @@ Check buttle neck on the packet way
 
 now EIGRP is open-standard
 
+eigrp is double stack:
+
+A dual-stack network is a networking environment that supports the simultaneous use of both IPv4 and IPv6 addresses.
+
+in ccna class we told it support both ip and  ipx/spx
+
 
 
 Administrtive Distance:

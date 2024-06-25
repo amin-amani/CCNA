@@ -29,6 +29,10 @@ inside each AS we use IGP(interior gateway protocols) protocols and between each
 
 https://iana.org is responsible to distribute AS numbers
 
+wild card: A wildcard mask is a 32-bit binary number that is mainly used to indicate which bits of an IP address must match and which bits do not matter
+
+subnet mask:  255.255.255.128 -> wild card: 0.0.0.127 -> wildcard = 255.255.255.255 - sub.sub.sub.sub 
+
 ex:
 
 ```

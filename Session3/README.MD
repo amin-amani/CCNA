@@ -15,6 +15,8 @@ open standard:?
 
 router eigrp <as number>
 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/Session3/eigrp-protocols.PNG" alt="CCNA ||" width="500"/></a>
+
 ex:
 
 ```

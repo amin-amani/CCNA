@@ -1,7 +1,13 @@
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/Session3/routings.PNG" alt="CCNA ||" width="500"/></a>
 
-now EIGRP is open standard
+eigrp route priority = sum delay + bandwidth
+
+Check buttle neck on the packet way
+
+now EIGRP is open-standard
+
+
 
 Administrtive Distance:
 
@@ -33,6 +39,13 @@ wild card: A wildcard mask is a 32-bit binary number that is mainly used to indi
 
 subnet mask:  255.255.255.128 -> wild card: 0.0.0.127 -> wildcard = 255.255.255.255 - sub.sub.sub.sub 
 
+rouer eigrp [AS number]
+
+network [ip] [wildcard]
+
+if the network is class-full don't need to write wildcards
+
+
 ex:
 
 ```
@@ -43,3 +56,11 @@ network 192.168.1.10 0.0.0.255
 announce network 
 
 network 192.168.1.10 wildcard
+
+
+```
+eigrp neighbors
+
+show ip protocols
+
+```

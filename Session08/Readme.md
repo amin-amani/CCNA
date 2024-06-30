@@ -1,5 +1,7 @@
 ### NAT
 
+tra2210_8
+
 ```
 int f0/0
 ip nat inside

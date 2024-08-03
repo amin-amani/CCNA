@@ -28,6 +28,6 @@ enable secret 0000
 ```
 config register 2102
 ```
-
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/3layer.PNG" alt="CCNA ||" width="500"/></a>
 
 1:12:00

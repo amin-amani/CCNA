@@ -104,13 +104,15 @@ show process
 ```
 ## vlan routing 
 
-## 2 port
+### 2 port
+
+useless takes 2 port from router
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing1.PNG" alt="CCNA ||" width="500"/></a>
 
 ### sub interface 
 
-<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing-subint.PNG" alt="CCNA ||" width="500"/></a>
 
 ```
 interface f0/0

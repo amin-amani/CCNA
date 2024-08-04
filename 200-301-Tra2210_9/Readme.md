@@ -96,8 +96,11 @@ delete flash:
  delete filename []? vlan.dat
 ```
 
+## Idle utility should between  4%-5%
 
-
+```
+show process
+```
 
   
 2:07:00

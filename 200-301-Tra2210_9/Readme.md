@@ -44,7 +44,7 @@ enable secret 0000
 
 
 ```
-interface f0/0
+interface range fastEthernet 0/1-20
 switch port mode trunk
 switch port mode access
 switch port access vlan 2

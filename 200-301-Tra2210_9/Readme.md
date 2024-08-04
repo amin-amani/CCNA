@@ -133,6 +133,25 @@ ex
 
 ## VTP
 
-creates and share vlans over connected switches
+creates and share vlans over connected switches. it just creates vlan you should assign vlan to each interface
+
+### server mode
+
+```
+vtp domain hsh.com
+vtp password 123
+vtp mode server
+```
+### client mode
+
+```
+vtp domain hsh.com
+vtp password 123
+vtp mode server
+```
+
+### transparent mode
+
+just pass settings to other switches and it doesn't create vtp server vlans itself.
 
 2:07:00

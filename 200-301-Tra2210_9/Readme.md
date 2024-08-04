@@ -102,6 +102,23 @@ delete flash:
 ```
 show process
 ```
+#sub interface 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
+```
+interface f0/0
+no shutdown
+int f0/0.1
+encapsulation dot1Q 1 //vlan1
+ip address 192.168.10.1
+no shutdown
+ex
 
+int f0/0.2
+encapsulation dot1Q 2 //vlan2
+ip address 192.168.20.1
+no shutdown
+ex
+
+```
   
 2:07:00

@@ -130,5 +130,9 @@ no shutdown
 ex
 
 ```
-  
+
+## VTP
+
+creates and share vlans over connected switches
+
 2:07:00

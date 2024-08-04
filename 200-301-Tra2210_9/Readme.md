@@ -79,6 +79,11 @@ show vlan brief
 show int trunk 
 ```
 
+## erase configs
+
+```
+erase startup_config
+```
 
 
 

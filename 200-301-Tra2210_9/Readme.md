@@ -62,7 +62,25 @@ Native vlan: packets without vlan tags transfer via native vlan. we put bigest n
 
 if we dont have mange switch we sholdnt change native vlan
 
+
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/ex1-scenario.PNG" alt="CCNA ||" width="500"/></a>
+
+## check vlan and its interfaces
+
+```
+show vlan breif
+```
+
+* if we can't see some ports in show vlan breif report it means it is trunk or their vlan cleared 
+
+## check trunk ports: 
+
+```
+show int trunk 
+```
+
+
+
 
 
   

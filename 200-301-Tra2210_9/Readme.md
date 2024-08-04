@@ -30,4 +30,8 @@ enable secret 0000
 ```
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/3layer.PNG" alt="CCNA ||" width="500"/></a>
 
+## vlan types:
+
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
+
 1:12:00

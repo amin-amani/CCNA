@@ -60,6 +60,7 @@ double tag:
 
 Native vlan: packets without vlan tags transfer via native vlan. we put bigest network into native vlan to reduce traffic because it doenst need 1q tag
 
+if we dont have mange switch we sholdnt change native vlan
 
 
   

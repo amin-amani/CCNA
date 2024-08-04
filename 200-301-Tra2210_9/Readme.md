@@ -32,6 +32,10 @@ enable secret 0000
 
 ## vlan types:
 
+local: meanse exist only on one switch
+
+end to end: meanse exist on multiple switchs and connected using trunk port
+
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
 
 1:12:00

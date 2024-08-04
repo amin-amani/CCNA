@@ -56,5 +56,9 @@ end to end: meanse exist on multiple switchs and connected using trunk port
 single tag(802.1q): is beter than double tag.
 
 double tag:
+
+
+Native vlan:
+
   
 1:12:00

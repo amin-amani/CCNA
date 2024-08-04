@@ -79,7 +79,13 @@ show vlan brief
 show int trunk 
 ```
 
-## erase configs
+## erase configs and vlans
+
+vlans are no saved o startup_config chcke flash using below command:
+
+```
+show flash:
+```
 
 ```
 erase startup_config

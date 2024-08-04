@@ -39,8 +39,9 @@ Dynamic: become same as connected port mod if it is trunk become trunk if it is 
 
 ```
 interface f0/0
- switch port mode trunk
- switch port mode access
+switch port mode trunk
+switch port mode access
+switch port access vlan 2
 ``` 
 
 ## vlan types:

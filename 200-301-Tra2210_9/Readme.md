@@ -102,11 +102,16 @@ delete flash:
 ```
 show process
 ```
+## vlan routing 
 
+## 2 port
 
-https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing1.PNG
-#sub interface 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing1.PNG" alt="CCNA ||" width="500"/></a>
+
+### sub interface 
+
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
+
 ```
 interface f0/0
 no shutdown

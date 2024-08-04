@@ -65,13 +65,13 @@ if we dont have mange switch we sholdnt change native vlan
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/ex1-scenario.PNG" alt="CCNA ||" width="500"/></a>
 
-## check vlan and its interfaces
+## check vlan and it's interfaces
 
 ```
-show vlan breif
+show vlan brief
 ```
 
-* if we can't see some ports in show vlan breif report it means it is trunk or their vlan cleared 
+* if we can't see some ports in show vlan brief report it means it they are trunk or their vlan cleared 
 
 ## check trunk ports: 
 

@@ -102,6 +102,9 @@ delete flash:
 ```
 show process
 ```
+
+
+https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing1.PNG
 #sub interface 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
 ```

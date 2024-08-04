@@ -1,41 +1,45 @@
-## set password to router
+## Set Password to Router
 
-enable secret [password]
+Enable secret [password]:
+
 ```
 enable secret 123
 ```
-## passsword recovery step router
+## Password Recovery Steps for Router
 
-1. during boot press CTRL+PAUSE and go to bootloader shell
-2. set register to 2142
+1. During boot, press CTRL+PAUSE and go to bootloader shell.
+2. Set register to 2142:
+   
 ```
 >confreg 2142
 ```
-3. reset
+3. Reset:
 ```
 >reset
 ```  
-4. copy startup config to running config
+4. Copy startup config to running config:
 ```
 #copy startup_config running_config
 ```
-5. remove password or set new one
+5. Remove password or set new one:
 ```
 no secret
 enable secret 0000
 ``` 
-6. config reg to 2102
+6. Config reg to 2102:
 ```
 #config-register 2102
 ```
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/3layer.PNG" alt="CCNA ||" width="500"/></a>
-## port types
 
-Trunk: path to trnasfer all vlan traffic
+## Port Types
 
-Access: spefific vlan trafic will pass
+**Trunk:** Path to transfer all VLAN traffic.
 
-Dynamic: become same as connected port mod if it is trunk become trunk if it is access become acces.it is not recomanded to leave ports Dynamic
+**Access:** Specific VLAN traffic will pass.
+
+**Dynamic:** Becomes the same as the connected port mode; if it is trunk, it becomes trunk; if it is access, it becomes access. It is not recommended to leave ports Dynamic.
+
 
 ```
 interface f0/0
@@ -44,45 +48,45 @@ switch port mode access
 switch port access vlan 2
 ``` 
 
-## vlan types:
+## VLAN Types
 
-local: meanse exist only on one switch
+**Local:** Exists only on one switch.
 
-end to end: meanse exist on multiple switchs and connected using trunk port
+**End to End:** Exists on multiple switches and is connected using trunk ports.
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
 
-## we have two truk types:
+## We Have Two Trunk Types
 
-single tag(802.1q): is beter than double tag.
+**Single Tag (802.1q):** Is better than double tag.
 
-double tag:
+**Double Tag:**
 
 
-Native vlan: packets without vlan tags transfer via native vlan. we put bigest network into native vlan to reduce traffic because it doenst need 1q tag
+**Native VLAN:** Packets without VLAN tags transfer via native VLAN. We put the biggest network into native VLAN to reduce traffic because it doesn't need 1q tag.
 
-if we dont have mange switch we sholdnt change native vlan
-
+If we don't have a managed switch, we shouldn't change the native VLAN.
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/ex1-scenario.PNG" alt="CCNA ||" width="500"/></a>
 
-## check vlan and it's interfaces
+## Check VLAN and its Interfaces
 
 ```
 show vlan brief
 ```
 
-* if we can't see some ports in show vlan brief report it means it they are trunk or their vlan cleared 
+* If we can't see some ports in the show vlan brief report, it means they are trunk or their VLAN is cleared.
 
-## check trunk ports: 
+## Check Trunk Ports
+
 
 ```
 show int trunk 
 ```
 
-## erase configs and vlans
+## Erase Configs and VLANs
 
-vlans are no saved in  startup_config they are in vlan.dat in flash. chcke flash using below command:
+VLANs are not saved in startup_config; they are in vlan.dat in flash. Check flash using the command below:
 
 ```
 show flash:
@@ -91,26 +95,27 @@ show flash:
 ```
 erase startup_config
 ```
-## To delete vlan file:
+## To Delete VLAN File
 ```
 delete flash:
  delete filename []? vlan.dat
 ```
 
-## Idle utility should between  4%-5%
+## Idle Utility Should Be Between 4%-5%
 
 ```
 show process
 ```
-## vlan routing 
 
-### 2 port
+## VLAN Routing 
 
-useless takes 2 port from router
+### 2 Port
+
+Useless, takes 2 ports from the router.
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing1.PNG" alt="CCNA ||" width="500"/></a>
 
-### sub interface 
+### Sub Interface 
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlan%20routing-subint.PNG" alt="CCNA ||" width="500"/></a>
 
@@ -133,16 +138,9 @@ ex
 
 ## VTP
 
-creates and share vlans over connected switches. it just creates vlan you should assign vlan to each interface
+Creates and shares VLANs over connected switches. It just creates VLAN; you should assign VLAN to each interface.
 
-### server mode
-
-```
-vtp domain hsh.com
-vtp password 123
-vtp mode server
-```
-### client mode
+### Server Mode
 
 ```
 vtp domain hsh.com
@@ -150,8 +148,16 @@ vtp password 123
 vtp mode server
 ```
 
-### transparent mode
+### Client Mode
 
-just pass settings to other switches and it doesn't create vtp server vlans itself.
+```
+vtp domain hsh.com
+vtp password 123
+vtp mode server
+```
+
+### Transparent Mode
+
+Just passes settings to other switches and doesn't create VTP server VLANs itself.
 
 2:07:00

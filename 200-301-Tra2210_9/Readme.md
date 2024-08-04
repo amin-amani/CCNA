@@ -51,4 +51,10 @@ end to end: meanse exist on multiple switchs and connected using trunk port
 
 <a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/vlantypes.PNG" alt="CCNA ||" width="500"/></a>
 
+## we have two truk types:
+
+single tag(802.1q): is beter than double tag.
+
+double tag:
+  
 1:12:00

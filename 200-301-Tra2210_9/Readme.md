@@ -81,7 +81,7 @@ show int trunk
 
 ## erase configs and vlans
 
-vlans are no saved o startup_config chcke flash using below command:
+vlans are no saved in  startup_config they are in vlan.dat in flash. chcke flash using below command:
 
 ```
 show flash:

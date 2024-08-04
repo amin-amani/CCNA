@@ -90,6 +90,11 @@ show flash:
 ```
 erase startup_config
 ```
+## To delete vlan file:
+```
+delete flash:
+ delete filename []? vlan.dat
+```
 
 
 

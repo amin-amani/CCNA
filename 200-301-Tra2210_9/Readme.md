@@ -35,7 +35,13 @@ Trunk: path to trnasfer all vlan traffic
 
 Access: spefific vlan trafic will pass
 
-Dynamic:
+Dynamic: become same as connected port mod if it is trunk become trunk if it is access become acces.it is not recomanded to leave ports Dynamic
+
+```
+interface f0/0
+ switch port mode trunk
+ switch port mode access
+``` 
 
 ## vlan types:
 

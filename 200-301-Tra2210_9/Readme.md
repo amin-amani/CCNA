@@ -62,6 +62,8 @@ Native vlan: packets without vlan tags transfer via native vlan. we put bigest n
 
 if we dont have mange switch we sholdnt change native vlan
 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_9/ex1-scenario.PNG" alt="CCNA ||" width="500"/></a>
+
 
   
-1:12:00
+2:07:00

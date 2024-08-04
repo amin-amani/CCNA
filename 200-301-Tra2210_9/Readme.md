@@ -58,7 +58,9 @@ single tag(802.1q): is beter than double tag.
 double tag:
 
 
-Native vlan:
+Native vlan: packets without vlan tags transfer via native vlan. we put bigest network into native vlan to reduce traffic because it doenst need 1q tag
+
+
 
   
 1:12:00

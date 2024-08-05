@@ -47,3 +47,23 @@ switch trunk encapsulation dot1q
 switchport mode trunk
 ex
 ```
+* creta 2 vlan interface in MLS
+```
+vlan 2
+ex
+interface vlan 1
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+interface vlan 2
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+```
+* issue ip route command
+```
+ip routing
+ex
+```
+
+
+
+

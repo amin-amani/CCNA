@@ -65,6 +65,11 @@ no shutdown
 ip routing
 ex
 ```
+## vlan routing scenario
+
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-TRA2210_10/scenario-test2.PNG" alt="CCNA ||" width="500"/></a>
+
+
 
 
 

@@ -33,3 +33,7 @@ see standby status:
 show standby brief
 ```
 
+ ## FHRP  scenario 2
+
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_13/fhrp-scenario2.PNG" alt="CCNA ||" width="700"/></a>
+

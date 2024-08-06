@@ -6,7 +6,7 @@
 
  ## FHRP first scenario
 
-<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_13/fhrp-scenario1.PNG" alt="CCNA ||" width="500"/></a>
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_13/fhrp-scenario1.PNG" alt="CCNA ||" width="700"/></a>
 
 
 

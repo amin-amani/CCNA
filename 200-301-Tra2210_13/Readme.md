@@ -16,7 +16,7 @@ int f0/0
 standby 1 ip 192.168.10.3
 standby 1 priority 100
 standby 1 preempt
-standby 1 track f0/1 //track interface connected to intrnet. interface down causes decrease from priority
+standby 1 track f0/1 //track interface connected to intrnet. interface down causes decrease 10  from current priority
 ```
 * on route 2
 ```

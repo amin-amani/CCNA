@@ -37,5 +37,8 @@ ip dhcp limi rate 5 //prevent starvation attack
 
 * BGP
 
+example scenario:
 
-1:14:0
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_14/bgp%20template.PNG" alt="CCNA ||" width="700"/></a>
+
+1:20:0

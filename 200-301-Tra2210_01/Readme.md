@@ -1,5 +1,7 @@
 # RIP protocol
 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-TRA2210_10/scenario-test2.PNG" alt="CCNA ||" width="700"/></a>
+
 open standard
 
 max hop count 15

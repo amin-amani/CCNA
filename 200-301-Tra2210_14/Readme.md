@@ -11,4 +11,6 @@ ip dhcp snooping
 ip dhcp snooping vlan 1
 int f0/10
 ip dhcp snooping trust
+ip dhcp limi rate 5 //prevent starvation attack
 ```
+0:49:0

@@ -16,6 +16,8 @@ ip dhcp limi rate 5 //prevent starvation attack
 
 # routing protocols:
 
+<a href="link"><img src="https://github.com/amin-amani/CCNA/blob/main/200-301-Tra2210_14/ospfvsEIGRP.PNG" alt="CCNA ||" width="700"/></a>
+
 ### IGB(Interior Gateway Protocol)
 
 * Distance Vector: RIP

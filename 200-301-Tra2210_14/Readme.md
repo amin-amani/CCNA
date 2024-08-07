@@ -13,7 +13,8 @@ int f0/10
 ip dhcp snooping trust
 ip dhcp limi rate 5 //prevent starvation attack
 ```
-## routing protocls:
+
+# routing protocols:
 
 ### IGB(Interior Gateway Protocol)
 

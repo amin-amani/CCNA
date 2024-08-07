@@ -4,7 +4,7 @@ createting facke dhcp server to apply fake settings in clients computers.
 
 dhcp starvation: send ip reauest with fake generated mac and fill dhcp server ip list 
 
-## enable dhcp snooping generally and for vlan 1. set f0/10 as trusted port
+### enable dhcp snooping generally and for vlan 1. set f0/10 as trusted port
 
 ```
 ip dhcp snooping

@@ -13,4 +13,21 @@ int f0/10
 ip dhcp snooping trust
 ip dhcp limi rate 5 //prevent starvation attack
 ```
-0:49:0
+## routing protocls:
+
+### IGB(Interior Gateway Protocol)
+
+* Distance Vector: RIP
+
+* Link state: OSPF
+
+* Advanced Distance Vector: EIGRP - RIP v2
+
+### EGP(Exerior Gateway Protocol)
+
+* EGP
+
+* BGP
+
+
+1:14:0
